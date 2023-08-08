@@ -1,0 +1,127 @@
+body {
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/* Header */
+.container {
+    width: 100% !important;
+}
+
+#header-nav {
+    background-color: #999999;
+}
+
+.navbar-brand {
+    color: black !important;
+    font-weight: bold;
+
+}
+
+.icon-bar {
+    background-color: white !important;
+    height: 0.25em !important;
+}
+
+.navbar-toggle {
+    border: 0.2rem white solid !important;
+    background-color: transparent !important;
+    padding: 5px 5px !important;
+}
+
+.collapsed>span {
+    background-color: black !important;
+}
+
+.collapsed {
+    border: 0.2rem black solid !important;
+}
+
+#nav-list {
+    text-align: center;
+}
+
+.menu-item:first-child {
+    border-top: 0.2rem black solid;
+}
+
+
+.menu-item {
+    background-color: #ffffff;
+    border-inline: 0.2rem black solid !important;
+    border-bottom: 0.2rem black solid !important;
+
+    >a {
+        color: #191714 !important;
+        font-size: large;
+    }
+}
+
+
+
+/* main */
+
+h1 {
+    text-align: center;
+    padding-block: 10px 20px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #999999;
+    width: 30%;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+
+
+p {
+    word-wrap: break-word;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .chicken {
+        width: 45%;
+    }
+
+    .beef {
+        width: 45%;
+    }
+
+    .sushi {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chicken {
+        width: 100% !important;
+    }
+
+    .beef {
+        width: 100% !important;
+    }
+
+    .sushi {
+        width: 100% !important;
+    }
+}
